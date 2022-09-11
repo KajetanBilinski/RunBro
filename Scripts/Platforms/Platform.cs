@@ -17,6 +17,11 @@ namespace Platforms
             
         }
 
+        public void StartMoving()
+        {
+            
+        }
+
         private void Update()
         {
             this.currentVelocity = this._rb.velocity;
